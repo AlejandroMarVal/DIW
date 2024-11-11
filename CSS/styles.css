@@ -1,0 +1,414 @@
+header {
+    display: grid;
+    grid-template-columns: 50% 40% 10%;
+    background-image: url(../IMG/Atlas-imago-header_1150x105.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: -25px;
+}
+
+.logo {
+    width: 80px;
+    margin: 10px; 
+}
+
+.breadcrumbs {
+    padding: 20px 0;
+    width: 100px;
+}
+
+.search-bar {
+    display: grid; 
+    grid-template-columns: auto 1fr;
+    align-items: center; 
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    padding: 8px; 
+    margin-left: auto; 
+    margin-right: 80px;
+    height: 20px;
+    width: 250px; 
+    margin-top: 90px;
+}
+
+.search-bar i {
+    color: #888; 
+    margin-right: 8px; 
+}
+
+.search-bar input {
+    border: none; 
+    outline: none; 
+    width: 100%;
+    font-size: 16px; 
+}
+
+.search-bar input:focus {
+    border-color: #007acc; 
+}
+
+.menu-hamburguesa {
+    display: grid; 
+    align-items: center; 
+    margin-top: 83px; 
+    margin-left: 40px; 
+    width: 50px; 
+    height: 50px; 
+}
+
+#hamburger-icon {
+    font-size: 44px; 
+    color: black;
+    margin: auto;
+}
+
+/* ESTILO PARA EL NAV */
+
+.navigation {
+    display: grid;
+    grid-template-rows: auto auto; 
+    border: 1px solid black;
+    padding-top: 0;
+    background-color: #e7e7e7;
+}
+
+.inscribirse {
+    width: 120px; 
+    height: 40px; 
+    background-color: orange; 
+    color: black;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    justify-self: center;
+    border: 1px solid black;
+    margin-top: 0.9px;
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    background-color: #e7e7e7;
+}
+
+.nav-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    text-align: center; 
+    border: none; 
+    font-weight: bold;
+}
+
+/* ESTILO PARA EL LUDOSPORT LEON */
+
+.content-box {
+    display: grid;                       
+    grid-template-rows: auto 1fr auto;
+    background-image: url(../IMG/fondogente.jpg); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;        
+    color: white;                      
+    text-align: center;
+    position: relative;  
+}
+
+.Texto {
+    display: grid;
+    place-items: center;
+    z-index: 1;
+}
+
+h2 {
+    margin: 0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 0px 80px;
+}
+
+.logo2 {
+    width: 150px;
+    margin: 0 auto;
+    z-index: 2;
+    display: block; 
+    grid-row: 3; 
+    margin-top: -20px;
+    opacity: 0.5;
+    filter: brightness(0.7);
+}
+
+/* ESTILO PARA EL APARTADO SOBRE NOSOTROS */
+
+.sobreNosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px; 
+    background-color: #ededed; 
+    text-align: center; 
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h3 {
+    grid-column: 1 / -1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.criticas {
+    text-align: left;
+}
+
+.alumnos {
+    text-align: right;
+}
+
+.criticas p, .alumnos p {
+    margin: 5px 0; 
+}
+
+.porcentaje, .cantidad {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffa000;
+
+}
+
+.calificacion, .tipo {
+    font-weight: bold;
+}
+
+.criticas .descripcion, .alumnos .descripcion {
+    font-weight: normal;
+    font-size: 16px;
+}
+
+/* ESTILOS PARA EL APARTADO ARMAS */ 
+
+.armas {
+    text-align: center; 
+    margin: 0;
+    padding-top: 20px;
+    background-color: #ededed;
+    border: 1px solid black;
+    height: 200px;
+}
+
+.armasDistintas {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.armas-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center; 
+    gap: 20px; 
+}
+
+.arma {
+    display: grid; 
+    grid-template-rows: auto auto;
+    justify-items: center; 
+    text-align: center; 
+}
+
+.arma img {
+    width: 130px;
+    height: auto;
+}
+
+.arma p {
+    margin-top: 10px;
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #870000;
+
+}
+
+/* ESTILOS PARA EL APARTADO ESTILOS DE COMBATE */
+
+.borde-container {
+    border: 1px solid black; 
+    text-align: center;
+}
+
+.estilos {
+    text-align: center; 
+    margin: 0;
+    padding-top: 20px;
+    background-color: #ededed;
+}
+
+.estilos2 {
+    text-align: center; 
+    margin: 0;
+    padding-top: 20px;
+    background-color: #ededed;
+}
+
+.estilos-container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.estilos2-container {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.estilo {
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    text-align: center;
+}
+
+.estilo img {
+    width: 130px;
+    height: auto; 
+}
+
+.estilo p {
+    margin-top: 10px; 
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #870000;
+    margin-bottom: 20px;
+}
+
+.estilosDistintos {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* ESTILOS PARA NUESTRO EQUIPO */
+
+#nuestroEquipo {
+    text-align: center; 
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 20px;
+    background-color: #ededed;
+    height: 360px;
+}
+
+.nuestroEquipo .foto1, .nuestroEquipo .foto2 {
+    display: inline-block;
+    text-align: center;
+    margin-left: 0;
+    margin-right: 30px; 
+}
+
+.nuestroEquipo img {
+    width: 200px;
+    height: auto;
+}
+
+.nuestroEquipo p {
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #333; 
+    margin-top: 10px;
+}
+
+/* ESTILOS PARA EL FOOTER */
+
+footer {
+    background-color: #666666;
+    padding: 20px;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; 
+    grid-template-areas: 
+        "ludosport mapa icons"; 
+    gap: 20px;
+}
+
+.ludosport-logo {
+    grid-area: ludosport;
+    text-align: left;
+}
+
+.ludosport1, .ludosport2 {
+    font-weight: bold;
+    font-size: 32px;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.ludosport1 {
+    color: orange;
+    font-style: italic;
+}
+
+.ludosport2 {
+    margin-left: 90px;
+    font-style: italic;
+}
+
+.logoFooter {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 110px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.mapa-paragraphs {
+    display: grid;
+    grid-template-columns: 2fr 1fr; 
+    color: white;
+}
+
+.mapa iframe {
+    width: 400px;
+    padding-left: 50px;
+}
+
+.footer-paragraphs {
+    display: grid;
+    gap: 10px;
+}
+
+.footer-paragraphs p {
+    display: grid;
+    align-items: center; 
+    font-size: 16px;
+}
+
+.footer-paragraphs i {
+    margin-right: 10px;
+}
+
+.footer-icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    justify-items: end;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.footer-icons a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+}
